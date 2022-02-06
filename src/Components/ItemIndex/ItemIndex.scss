@@ -1,0 +1,59 @@
+.containerHeader{
+  width: 100%;
+ background-image: url(https://res.cloudinary.com/dw94zgfgu/image/upload/v1642980504/dientes_zc0vsa.png); 
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+  height: 600px;
+}
+
+.descHeader{
+  text-align: center;
+  line-height: 400px;
+  font-family: 'Fredoka One', cursive;
+  font-weight: 400;
+  color: black;
+  position: relative;
+}
+
+.containerIndex{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:space-around;
+}
+
+.contIndex{
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Fredoka One', cursive;
+  font-weight: 400;
+  color: black;
+  position: relative;
+}
+
+.contForm{
+  display: flex;
+  align-items: center;
+}
+
+.contMaps{
+  width: 375px;
+  height: 300px;
+}
+
+
+@media only screen and (min-width: 376px) and (max-width: 990px) {
+
+  .containerHeader{
+    height: 400px;
+  }
+
+  .descHeader{
+    font-size: 22px;
+    line-height: 200px;
+
+  }
+  
+
+}
