@@ -67,11 +67,10 @@ const ItemConsultaPorOsocial = () => {
 
 
     return (
-        <div>
+        <div className='itemConsulta'>
             {loading ? <Loader tipo='buscando' />
                 :
                 <div>
-                    <h2 className='titleForm'>Buscar historia clínica</h2>
                     <form className='formConsulta' onSubmit={findOrder}>
                         <div className="form-floating mb-3 mt-5">
                             <select 

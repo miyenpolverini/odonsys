@@ -4,8 +4,7 @@ import './NavBar.scss';
 
 const NavBar = () => {
     return (
-        <main>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-index">
+            <nav className="navbar navbar-expand-lg navbar-light navbar-index">
                 <div className="container-fluid">
                     <Link className="navbar-brand" to={'/'}>
                         <img className="logoMain" src='https://res.cloudinary.com/dw94zgfgu/image/upload/v1642984158/logo-main2_oq8nxa.png' alt="logo-main" />
@@ -48,7 +47,6 @@ const NavBar = () => {
                     </div>
                 </div>
             </nav>
-        </main>
     )
 }
 

@@ -8,6 +8,10 @@ import Loader from '../../Loader'
 
 const FormOrder = () => {
 
+    const style = {
+        height: '100px'
+    }
+
     const { loadOrder, SetNotification, setNotifAdd, notifAdd, setNotifDel, notifDel } = useContext(cartContext)
 
     let navigate = useNavigate()
@@ -140,6 +144,7 @@ const FormOrder = () => {
                         placeholder='name@example.com' 
                         name='tratam' 
                         onChange={handleInputChange}
+                        style={style}
                         required></textarea>
                         <label className='form-compra'>Tratamiento realizado e indicaciones</label>
                     </div>

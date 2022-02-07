@@ -5,6 +5,7 @@ import { collection, getDocs, query, where, orderBy } from 'firebase/firestore'
 import HistoryList from '../ItemList/HistoryList'
 import cartContext from '../../Context/cartContext'
 import { Link, useNavigate } from 'react-router-dom'
+import './ItemConsulta.scss'
 
 const ItemConsulta = () => {
 
@@ -44,7 +45,7 @@ const ItemConsulta = () => {
 
 
     return (
-        <div>
+        <div className='itemConsulta'>
             <ButtonsSearch />
         </div>
     )

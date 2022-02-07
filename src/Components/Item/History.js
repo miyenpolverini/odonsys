@@ -9,6 +9,11 @@ import { Button, Loading } from '@nextui-org/react';
 
 const History = ({ historia }) => {
 
+
+    const style = {
+        height: '100px'
+    }
+
     const { search, historyID, saveHistories } = useContext(cartContext)
 
     const [btnRegistrar, setBtnRegistrar] = useState(true)
@@ -184,7 +189,7 @@ const History = ({ historia }) => {
 
 
     return (
-        <>
+        <div>
             <h2 className='order-tit'>Historia clínica del paciente {historia.name}</h2>
             <div className="order">
                 <li key={historia.id} className='titOrder'>
@@ -225,7 +230,7 @@ const History = ({ historia }) => {
                     </tbody>
                 </table>
             </div>
-            {btnDeleteLoading && <Loading type="spinner" size="xl" /> }
+            {btnDeleteLoading && <Loading type="spinner" size="xl" />}
             {btnRegistrar ? <button className='botonSeguirCompra' onClick={() => registerVisit()}>Registrar nueva visita</button>
                 :
                 <form className='formAdd' onSubmit={addOrderVisit}>
@@ -239,12 +244,13 @@ const History = ({ historia }) => {
                             required></input>
                         <label className='form-compra'>Fecha</label>
                     </div>
-                    <div className="formVisit form-floating mt-3">
+                    <div className="formVisit form-floating mt-3" >
                         <textarea className="form-control"
                             id="floatingTextarea"
                             placeholder='name@example.com'
                             name='tratamiento'
                             onChange={handleInputVisit}
+                            style={style}
                             required></textarea>
                         <label className='form-compra'>Tratamiento realizado e indicaciones</label>
                     </div>
@@ -259,7 +265,7 @@ const History = ({ historia }) => {
 
                     }
                 </form>}
-        </>
+        </div>
     )
 }
 

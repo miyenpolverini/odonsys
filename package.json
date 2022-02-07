@@ -1,5 +1,5 @@
 {
-  "homepage": "https://miyenpolverini.github.io/odonsys/",
+  "homepage": "https://miyenpolverini.github.io/odonsys",
   "name": "odon-aylu-app",
   "version": "0.1.0",
   "private": true,
@@ -50,6 +50,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "3.2.3"
   }
 }
