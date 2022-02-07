@@ -27,6 +27,7 @@ function App() {
           <div className="App-header">
             <Routes>
               <Route path='/' element={<ItemIndex />}></Route>
+              <Route path='/odonsys' element={<ItemIndex />}></Route>
               <Route path='/category/:categoryId' element={<ItemListContainer />}></Route>
               <Route path='/detail/:paramId' element={<ItemDetailContainer />}></Route>
               <Route path='/cart' element={<Cart />}></Route>
