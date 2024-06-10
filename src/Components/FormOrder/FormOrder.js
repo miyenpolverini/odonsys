@@ -46,7 +46,7 @@ const FormOrder = () => {
             phone: contact.phone,
             osocial: contact.obraSocial.toUpperCase(),
             nroafiliado: contact.obraSocialNumber,
-            tratamientos: [{fecha: Timestamp.fromDate(new Date()), tratamiento: contact.tratam}]
+            tratamientos: [{ fecha: Timestamp.fromDate(new Date()), tratamiento: contact.tratam }]
         }
 
 
@@ -88,8 +88,14 @@ const FormOrder = () => {
             }
         })
 
-        
+    }
 
+
+    const [isActive, setActive] = useState(["false", "false"]);
+
+    const handleTogge = (index) => {
+
+        setActive(!isActive);
     }
 
 
@@ -104,14 +110,14 @@ const FormOrder = () => {
                         <label className='form-compra'>Nombre del paciente</label>
                     </div>
                     <div className="form-floating mb-3">
-                        <input type="text" 
-                        className="form-control" 
-                        id="floatingInput" 
-                        placeholder='name@example.com' 
-                        name='dni' 
-                        maxLength={8}
-                        onChange={handleInputChange} 
-                        required></input>
+                        <input type="text"
+                            className="form-control"
+                            id="floatingInput"
+                            placeholder='name@example.com'
+                            name='dni'
+                            maxLength={8}
+                            onChange={handleInputChange}
+                            required></input>
                         <label className='form-compra'>DNI</label>
                     </div>
                     <div className="form-floating mb-3">
@@ -139,14 +145,58 @@ const FormOrder = () => {
                         <label className='form-compra'>Nro de afiliado</label>
                     </div>
                     <div className="form-floating mb-5">
-                        <textarea className="form-control" 
-                        id="floatingTextarea" 
-                        placeholder='name@example.com' 
-                        name='tratam' 
-                        onChange={handleInputChange}
-                        style={style}
-                        required></textarea>
+                        <textarea className="form-control"
+                            id="floatingTextarea"
+                            placeholder='name@example.com'
+                            name='tratam'
+                            onChange={handleInputChange}
+                            style={style}
+                            required></textarea>
                         <label className='form-compra'>Tratamiento realizado e indicaciones</label>
+                    </div>
+                    <div >
+                        <table className="table-hover table-bordered border-dark table-odontograma ">
+                            <tbody >
+                                <tr>
+                                    <td className={isActive ? 'color' : 'color1'} onClick={() => handleTogge(0)}>18</td>
+                                    <td className={isActive ? 'color' : 'color1'} onClick={() => handleTogge(1)}>17</td>
+                                    <td>16</td>
+                                    <td>15</td>
+                                    <td>14</td>
+                                    <td>13</td>
+                                    <td>12</td>
+                                    <td>11</td>
+                                    <td></td>
+                                    <td>21</td>
+                                    <td>22</td>
+                                    <td>23</td>
+                                    <td>24</td>
+                                    <td>25</td>
+                                    <td>26</td>
+                                    <td>27</td>
+                                    <td>28</td>
+                                </tr>
+                                <tr>
+                                    <td>48</td>
+                                    <td>47</td>
+                                    <td>46</td>
+                                    <td>45</td>
+                                    <td>44</td>
+                                    <td>43</td>
+                                    <td>42</td>
+                                    <td>41</td>
+                                    <td> </td>
+                                    <td>31</td>
+                                    <td>32</td>
+                                    <td>33</td>
+                                    <td>34</td>
+                                    <td>35</td>
+                                    <td>36</td>
+                                    <td>37</td>
+                                    <td>38</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                     <button className='btnFinish' type='submit'>Cargar</button>
                     <Link to={'/'}>
