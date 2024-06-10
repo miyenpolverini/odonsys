@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/odonsys/static/css/main.aacdb41e.chunk.css",
-    "main.js": "/odonsys/static/js/main.cd322eb6.chunk.js",
-    "main.js.map": "/odonsys/static/js/main.cd322eb6.chunk.js.map",
-    "runtime-main.js": "/odonsys/static/js/runtime-main.04ff9b2d.js",
-    "runtime-main.js.map": "/odonsys/static/js/runtime-main.04ff9b2d.js.map",
-    "static/css/2.383c0125.chunk.css": "/odonsys/static/css/2.383c0125.chunk.css",
-    "static/js/2.2e334503.chunk.js": "/odonsys/static/js/2.2e334503.chunk.js",
-    "static/js/2.2e334503.chunk.js.map": "/odonsys/static/js/2.2e334503.chunk.js.map",
-    "static/js/3.8b88cdf2.chunk.js": "/odonsys/static/js/3.8b88cdf2.chunk.js",
-    "static/js/3.8b88cdf2.chunk.js.map": "/odonsys/static/js/3.8b88cdf2.chunk.js.map",
+    "main.css": "/odonsys/static/css/main.ff591d3a.chunk.css",
+    "main.js": "/odonsys/static/js/main.6cdd605e.chunk.js",
+    "main.js.map": "/odonsys/static/js/main.6cdd605e.chunk.js.map",
+    "runtime-main.js": "/odonsys/static/js/runtime-main.fc976671.js",
+    "runtime-main.js.map": "/odonsys/static/js/runtime-main.fc976671.js.map",
+    "static/css/2.f1b2261f.chunk.css": "/odonsys/static/css/2.f1b2261f.chunk.css",
+    "static/js/2.5ef2c3af.chunk.js": "/odonsys/static/js/2.5ef2c3af.chunk.js",
+    "static/js/2.5ef2c3af.chunk.js.map": "/odonsys/static/js/2.5ef2c3af.chunk.js.map",
+    "static/js/3.bc4ffded.chunk.js": "/odonsys/static/js/3.bc4ffded.chunk.js",
+    "static/js/3.bc4ffded.chunk.js.map": "/odonsys/static/js/3.bc4ffded.chunk.js.map",
     "index.html": "/odonsys/index.html",
-    "static/css/2.383c0125.chunk.css.map": "/odonsys/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.aacdb41e.chunk.css.map": "/odonsys/static/css/main.aacdb41e.chunk.css.map",
-    "static/js/2.2e334503.chunk.js.LICENSE.txt": "/odonsys/static/js/2.2e334503.chunk.js.LICENSE.txt"
+    "static/css/2.f1b2261f.chunk.css.map": "/odonsys/static/css/2.f1b2261f.chunk.css.map",
+    "static/css/main.ff591d3a.chunk.css.map": "/odonsys/static/css/main.ff591d3a.chunk.css.map",
+    "static/js/2.5ef2c3af.chunk.js.LICENSE.txt": "/odonsys/static/js/2.5ef2c3af.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.04ff9b2d.js",
-    "static/css/2.383c0125.chunk.css",
-    "static/js/2.2e334503.chunk.js",
-    "static/css/main.aacdb41e.chunk.css",
-    "static/js/main.cd322eb6.chunk.js"
+    "static/js/runtime-main.fc976671.js",
+    "static/css/2.f1b2261f.chunk.css",
+    "static/js/2.5ef2c3af.chunk.js",
+    "static/css/main.ff591d3a.chunk.css",
+    "static/js/main.6cdd605e.chunk.js"
   ]
 }
